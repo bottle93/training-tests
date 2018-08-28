@@ -2,14 +2,14 @@
   "name": "olateststraining",
   "version": "1.0.0",
   "description": "how-write-tests training",
-  "main": "index.js",
+  "main": "shop.js",
   "scripts": {
-    "test": "jest",
-    "test-watch": "jest --watch"
+    "test": "mocha mocha"
   },
   "author": "Ola Strzelec",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.5.0"
+    "jest": "^23.5.0",
+    "mocha": "^5.2.0"
   }
 }
